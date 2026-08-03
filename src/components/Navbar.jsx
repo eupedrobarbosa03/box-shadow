@@ -12,10 +12,10 @@ const Navbar = () => {
     };
 
     const [linksNavbar] = useState([
-        {id: "#", title: "Home"},
-        {id: "#shadow", title: "Shadow"},
-        {id: "#about", title: "Sobre"},
-        {id: "#", title: "Github"}
+        {path: "#", title: "Home"},
+        {path: "#shadow", title: "Shadow"},
+        {path: "#about", title: "Sobre"},
+        {path: "#", title: "Github", target: "_blank"}
     ])
 
     return (
@@ -25,7 +25,7 @@ const Navbar = () => {
             </button>
             <nav className={`navbar-container ${showNavbar}`}>
                 {linksNavbar.map((link) => (
-                    <a href={`${link.id}`} onClick={handleChangeStateNavbar}>{link.title}</a>
+                    <a href={`${link.path}`} target={link.target} onClick={handleChangeStateNavbar}>{link.title}</a>
                 ))}
             </nav>
         </>
