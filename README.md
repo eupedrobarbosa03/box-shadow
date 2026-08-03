@@ -33,10 +33,10 @@
 
 ---
 
-# Tecnologias 💻⭐
+### Tecnologias ⭐
 > React + Vite, CSS e GIT.
 
-# Conceitos 📁
+### Conceitos 📁
 > Modules;  
 > Hooks: useState;  
 > CSS: gradient, backdrop;  
