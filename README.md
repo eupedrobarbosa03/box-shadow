@@ -1,16 +1,46 @@
-# React + Vite
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/eupedrobarbosa03/generator-boxShadow)
+[![React](https://img.shields.io/badge/made%20with-React-61DAFB?logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/built%20with-Vite-646CFF?logo=vite)](https://vitejs.dev/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+---
 
-Currently, two official plugins are available:
+## Boxshadow.css ⭐
+> **BoxShadow.css** é uma aplicação web gratuita que permite a criação de sombras em tempo real com css. A ideia é voltada para visualização em tempo real com copiagem do código css.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Deploy 🌐
+> [✅ Clique aqui para ver o projeto on-line](https://eupedrobarbosa03.github.io/box-shadow/).   
 
-## React Compiler
+### Funcionalidades ✅
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsividade 💻
+  > ✅ A aplicação é responsiva para a maioria das telas.
 
-## Expanding the Oxlint configuration
+- Mobile 📱
+  > ✅ Menu mobile com desvio de foco no background;  
+  > ✅ Gradient em escala diferente em relação às outras telas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- CSS em tempo real 🟪
+  > ✅ Código css em tempo real;  
+  > ✅ Código que pode ser copiado a qualquer momento.
+
+- BoxShadow 🟨
+  > ✅ Background-color;    
+  > ✅ Opacity;  
+  > ✅ Border-color;  
+  > ✅ Border-radius;  
+  > ✅ Border-size;  
+  > ✅ OffSetX;  
+  > ✅ OffSetY;  
+  > ✅ Blur;  
+  > ✅ Shadow-color;
+
+---
+
+### Tecnologias ⭐
+> React + Vite, CSS e GIT.
+
+### Conceitos 📁
+> Modules;  
+> Hooks: useState;  
+> CSS: gradient, backdrop;  
+> React: State para menu mobile;
