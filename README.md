@@ -5,4 +5,9 @@
 ---
 
 ## Boxshadow.css ⭐
-> BoxShadow.css é uma aplicação web gratuita que permite a criação de sombras em tempo real com css. A ideia é voltada para visualização em tempo real com copiagem do código css.
+> **BoxShadow.css** é uma aplicação web gratuita que permite a criação de sombras em tempo real com css. A ideia é voltada para visualização em tempo real com copiagem do código css.
+
+# Funcionalidades 💻
+- D
+  - Teste
+  - 
