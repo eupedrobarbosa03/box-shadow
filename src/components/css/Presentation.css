@@ -1,0 +1,83 @@
+.presentation-container {
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 2.5rem;
+    justify-content: space-between;
+}
+
+.container-text-presentation-boxShadow {
+    width: 500px;
+}
+
+.container-text-presentation-boxShadow h2 {
+    background: linear-gradient(90deg, #c7c7c7, #921092);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.container-text-presentation-boxShadow p {
+    color:  #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: .8rem;
+    border-left: 3px solid #921092;
+    padding-left: 3px;
+}
+
+
+
+.container-code-css-presentation {
+    width: 500px;
+    padding: 20px;
+    background-color: #010101;
+    box-shadow: 1px 1px 10px #921092;
+    color: #fff;
+    transition: .5s;
+    border-radius: 20px;
+    &:hover {
+        .code-css-preview {
+            color: #fff;
+        }
+    }
+}
+
+.code-css-preview {
+    transition: .5s;
+    color: #cc29cc;
+}
+
+@media (min-width: 710px) and (max-width: 900px) {
+    .container-text-presentation-boxShadow h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .presentation-container {
+        justify-content: center;
+        margin-top: 100px;
+        padding: 0;
+    }   
+
+    .container-text-presentation-boxShadow {
+        width: 100%;
+    }
+
+    .container-text-presentation-boxShadow h2 {
+        font-size: 2.2rem;
+    }
+
+    .container-text-presentation-boxShadow p {
+        font-size: .65rem;
+    }
+
+    .container-code-css-presentation {
+        margin-top: 50px;
+    }
+
+}

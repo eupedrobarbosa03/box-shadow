@@ -1,0 +1,13 @@
+.button-return-home {
+    height: 35px;
+    width: 35px;
+    position: fixed;
+    background: linear-gradient(90deg, #fff, #d81cd8);
+    bottom: 10px;
+    left: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}

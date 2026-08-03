@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Ubuntu-light';
+  src: url('assets/fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu-bold';
+  src: url('assets/fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #040404;
+  font-family: 'Ubuntu-light';
+  position: relative;
+}
+
+.app-container {
+  padding: 3.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background: linear-gradient(-45deg, #040404 85%, #c04cc0);
+    background-attachment: fixed;
+  }
+
+  .app-container {
+    padding: 2rem;
+  }
+
+}

@@ -1,0 +1,133 @@
+.container-boxShadow {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.container-properties-boxShadow {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.container-property {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: .8rem;
+}
+
+.container-property p {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-property input[type="color"] {
+    background-color: transparent;
+    width: 70px;
+}
+
+.container-property input[type="range"] {
+    margin: 3px;
+}
+
+.container-property span {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.container-preview-code-css {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-copy-css {
+    background-color: #921092;
+    border: 1px solid #921092;
+    padding: .8rem;
+    width: 120px;
+    color: #fff;
+    cursor: pointer;
+    transition: .8s;
+    outline: none;
+    height: auto;
+    border-radius: 10px;
+    &:hover {
+        background-color: transparent;
+    }
+}
+
+.preview-code-css {
+    width: 100%;
+    padding: 20px;
+    background-color: #010101;
+    box-shadow: 1px 1px 10px #921092;
+    color: transparent;
+    background: linear-gradient(90deg, #fff, #921092);
+    background-clip: text;
+    transition: .5s;
+    border-radius: 20px;
+    &:hover {
+        .code-css-preview {
+            color: #fff;
+        }
+    }
+}
+
+.container-preview-boxShadow {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 710px) and (max-width: 900px) {
+    .container-boxShadow {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .container-preview-code-css {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .container-boxShadow {
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .preview-code-css {
+        font-size: .7rem;
+    }
+
+
+    .container-properties-boxShadow {
+        margin: 0;
+    }
+
+    .container-preview-boxShadow {
+        margin-bottom: 100px;
+    }
+
+}

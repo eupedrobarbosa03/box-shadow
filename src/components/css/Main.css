@@ -1,0 +1,17 @@
+.main-container {
+    margin-top: 50px;
+}
+
+.line-separator {
+    border: 1px solid rgba(206, 23, 206, 0.467);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 1px 1px 10px #921092;
+}
+
+@media screen and (max-width: 700px) {
+    .line-separator {
+        width: 80%;
+    }
+}

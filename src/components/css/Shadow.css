@@ -1,0 +1,19 @@
+.shadow-preview {
+    height: 200px;
+    width: 200px;
+}
+
+@media (min-width: 710px) and (max-width: 900px) {
+    .shadow-preview {
+        height: 130px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .shadow-preview {
+        height: 100px;
+        width: 100px;
+    }
+}
+
