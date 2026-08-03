@@ -21,12 +21,12 @@
   > ✅ Código que pode ser copiado a qualuer momento.
 
 - BoxShadow 🟨
-  > ✅ Background-color;  
-  > ✅ Opacity;
-  > ✅ Border-color;
-  > ✅ Border-radius;
-  > ✅ Border-size;
-  > ✅ OffSetX;
-  > ✅ OffSetY;
-  > ✅ Blur;
-  > ✅ Shadow-color;
+  > ✅ Background-color;    
+  > ✅ Opacity;  
+  > ✅ Border-color;  
+  > ✅ Border-radius;  
+  > ✅ Border-size;  
+  > ✅ OffSetX;  
+  > ✅ OffSetY;  
+  > ✅ Blur;  
+  > ✅ Shadow-color;  
