@@ -15,7 +15,7 @@ const Navbar = () => {
         {path: "#", title: "Home"},
         {path: "#shadow", title: "Shadow"},
         {path: "#about", title: "Sobre"},
-        {path: "#", title: "Github", target: "_blank"}
+        {path: "https://github.com/eupedrobarbosa03/box-shadow", title: "Github", target: "_blank"}
     ])
 
     return (
