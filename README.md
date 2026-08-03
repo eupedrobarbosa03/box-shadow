@@ -9,17 +9,24 @@
 
 # Funcionalidades 💻
 
-- Responsividade
-  > A aplicação é responsiva para a maioria das telas.
+- Responsividade 💻
+  > ✅ A aplicação é responsiva para a maioria das telas.
 
-- Mobile
-  > Menu mobile com desvio de foco no background;
-  > Gradient em escala diferente em relação às outras telas.
+- Mobile 📱
+  > ✅ Menu mobile com desvio de foco no background;  
+  > ✅ Gradient em escala diferente em relação às outras telas.
 
-- CSS em tempo real
-  > Código css em tempo real;
-  > Código que pode ser copiado a qualuer momento.
+- CSS em tempo real 🟪
+  > ✅ Código css em tempo real;  
+  > ✅ Código que pode ser copiado a qualuer momento.
 
-- BoxShadow
-  > Background-color;
-  > 
+- BoxShadow 🟨
+  > ✅ Background-color;  
+  > ✅ Opacity;
+  > ✅ Border-color;
+  > ✅ Border-radius;
+  > ✅ Border-size;
+  > ✅ OffSetX;
+  > ✅ OffSetY;
+  > ✅ Blur;
+  > ✅ Shadow-color;
