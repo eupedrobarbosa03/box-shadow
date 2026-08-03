@@ -3,3 +3,6 @@
 [![Vite](https://img.shields.io/badge/built%20with-Vite-646CFF?logo=vite)](https://vitejs.dev/)
 
 ---
+
+## Boxshadow.css ⭐
+> BoxShadow.css é uma aplicação web gratuita que permite a criação de sombras em tempo real com css. A ideia é voltada para visualização em tempo real com copiagem do código css.
