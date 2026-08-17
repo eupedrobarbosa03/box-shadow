@@ -2,6 +2,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import ReturnHome from "./components/ReturnHome"
+import Reveal from "./components/Reveal"
 
 function App() {
 
@@ -12,7 +13,9 @@ function App() {
         <Main />
         <ReturnHome />
       </div>
-      <Footer />
+      <Reveal>
+        <Footer />
+      </Reveal>
     </>
   )
 }

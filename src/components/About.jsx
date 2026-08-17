@@ -5,7 +5,7 @@ const About = () => {
         <section className="section-container-about">
             <section className="section-about" id='about'>
                 <h2>Sobre o boxshadow.css</h2>
-                <p>BoxShadow.css é uma aplicação web gratuita que permite a criação de sombras em tempo real com css. A ideia é voltada para visualização em tempo real com copiagem do código css. </p>
+                <p>BoxShadow.css é uma aplicação web gratuita que permite a criação de sombras em tempo real com css. A ideia é voltada para visualização em tempo real com copiagem do código css.</p>
             </section>
             <section className='section-advantages'>
                 <h2>Vantagens</h2>

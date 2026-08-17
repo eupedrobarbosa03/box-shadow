@@ -2,15 +2,22 @@ import About from './About';
 import BoxShadow from './BoxShadow';
 import './css/Main.css'
 import Presentation from './Presentation';
+import Reveal from './Reveal';
 
 const Main = () => {
     return (
         <main className="main-container">
-            <Presentation />
+            <Reveal>
+                <Presentation />
+            </Reveal>
             <div className='line-separator'></div>
-            <BoxShadow />
+            <Reveal>
+                <BoxShadow />
+            </Reveal>
             <div className='line-separator'></div>
-            <About />
+            <Reveal>
+                <About />
+            </Reveal>
         </main>
     )
 }

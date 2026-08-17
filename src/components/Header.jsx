@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import Reveal from "./Reveal"
 import './css/Header.css'
 
 const Header = () => {
@@ -7,7 +8,9 @@ const Header = () => {
             <h1 className="header-title">
                 BoxShadow.<span>css</span>
             </h1>
-            <Navbar />
+            <Reveal>
+                <Navbar />
+            </Reveal>
         </header>
     )
 }

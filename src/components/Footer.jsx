@@ -7,7 +7,7 @@ const Footer = () => {
         {path: "#", title: "Home"},
         {path: "#shadow", title: "Shadow"},
         {path: "#about", title: "Sobre"},
-        {path: "https://eupedrobarbosa03.github.io/box-shadow/", title: "Github", target: "_blank"},
+        {path: "https://github.com/eupedrobarbosa03/box-shadow", title: "Github", target: "_blank"},
         {path: "https://github.com/eupedrobarbosa03/", target: "_blank", title: "Autor"}
     ])
 
